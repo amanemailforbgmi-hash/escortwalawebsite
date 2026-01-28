@@ -21,7 +21,7 @@ export const Hero = () => {
             transition={{ duration: 0.8 }}
           >
             <span className="inline-block px-4 py-2 mb-6 text-xs uppercase tracking-[0.3em] text-primary border border-primary/30 rounded-full">
-              Premium Companion Services
+              Mahipalpur Adult Companion Directory
             </span>
           </motion.div>
 
@@ -31,8 +31,8 @@ export const Hero = () => {
             transition={{ duration: 0.8, delay: 0.1 }}
             className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-serif font-medium leading-tight mb-6"
           >
-            Where Elegance Meets{" "}
-            <span className="text-gradient-gold">Discretion</span>
+            Premium Adult Companions in{" "}
+            <span className="text-gradient-gold">Mahipalpur</span>
           </motion.h1>
 
           <motion.p
@@ -41,8 +41,11 @@ export const Hero = () => {
             transition={{ duration: 0.8, delay: 0.2 }}
             className="text-lg md:text-xl text-muted-foreground max-w-2xl mx-auto mb-10 leading-relaxed"
           >
-            India's most exclusive directory of verified companions. 
-            Experience sophistication, privacy, and unparalleled professionalism.
+            Welcome to our premium adult companion directory, your trusted
+            one-stop destination for discerning individuals seeking verified,
+            professional companionship in Mahipalpur. Experience unparalleled
+            sophistication, complete discretion, and carefully vetted profiles
+            tailored to exceed your expectations.
           </motion.p>
 
           <motion.div

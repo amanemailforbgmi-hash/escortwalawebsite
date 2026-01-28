@@ -73,7 +73,7 @@ const faqs = [
       },
       {
         q: "Is there an age requirement?",
-        a: "Yes. All clients must be 18 years of age or older. Age verification may be requested during the booking process. Similarly, all our companions are verified adults (18+) who have consented to be listed on our platform.",
+        a: "Yes. We operate under a strict no-minors policy. All clients must be 18 years of age or older, and age verification may be requested during the booking process. Likewise, every companion in our directory is a verified adult (18+) who has freely consented to be listed on our platform.",
       },
       {
         q: "What behavior is expected during engagements?",

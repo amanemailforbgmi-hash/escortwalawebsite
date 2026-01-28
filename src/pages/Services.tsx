@@ -60,7 +60,7 @@ const services = [
     icon: Heart,
     title: "Private Companionship",
     description:
-      "Sometimes, all you need is meaningful company. Enjoy intimate conversations, shared interests, and genuine connection in a private setting.",
+      "Sometimes, all you need is meaningful company. Enjoy relaxed conversations, shared interests, and genuine connection in a private, respectful setting.",
     features: [
       "Personal connection",
       "Thoughtful conversation",
@@ -71,7 +71,7 @@ const services = [
     icon: Sparkles,
     title: "VIP & Concierge Services",
     description:
-      "For those seeking an elevated experience, our VIP services include personalized matching, priority booking, and exclusive companion access.",
+      "For those seeking an elevated experience in Mahipalpur, our VIP services include personalized matching, priority booking, discreet itinerary planning, and coordination of transportation where available.",
     features: [
       "Priority booking",
       "Personalized matching",
@@ -110,8 +110,16 @@ const Services = () => {
               transition={{ delay: 0.2 }}
               className="text-muted-foreground text-lg leading-relaxed"
             >
-              From elegant dinners to corporate functions, our companions provide 
-              sophisticated companionship tailored to your needs.
+              Our comprehensive directory serves as your one-stop destination for
+              all adult entertainment needs in Mahipalpur, offering a vast array
+              of companionship services to suit every taste and preference. From
+              elegant dinners to corporate functions, travel companionship to
+              private engagements, our verified companions provide sophisticated
+              experiences tailored to your requirements. Our dedicated booking
+              team assists with introductions, scheduling, and discreet
+              coordination—including transportation arrangements where
+              available—ensuring every engagement feels seamless and exceeds your
+              expectations.
             </motion.p>
           </div>
         </div>
@@ -239,7 +247,7 @@ const Services = () => {
               Ready to Begin?
             </h2>
             <p className="text-muted-foreground mb-8">
-              Browse our selection of exceptional companions or reach out for a 
+              Browse our selection of exceptional companions or reach out for a
               personalized recommendation.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">

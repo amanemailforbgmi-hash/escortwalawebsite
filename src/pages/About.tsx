@@ -71,9 +71,11 @@ const About = () => {
               transition={{ delay: 0.2 }}
               className="text-muted-foreground text-lg leading-relaxed"
             >
-              Élite Companions was founded with a singular vision: to create 
-              India's most trusted and sophisticated companion directory, 
-              where discretion meets elegance.
+              Élite Companions is a premium adult companion directory serving
+              Mahipalpur and surrounding areas. We are the go-to resource for
+              discerning individuals seeking professional, discreet, and
+              carefully curated companionship where discretion and elegance
+              always come first.
             </motion.p>
           </div>
         </div>
@@ -93,23 +95,36 @@ const About = () => {
               </h2>
               <div className="space-y-4 text-muted-foreground leading-relaxed">
                 <p>
-                  In a world where genuine connection is increasingly rare, we 
-                  believe in the value of meaningful companionship. Whether for 
-                  a social event, business function, or simply an evening of 
-                  engaging conversation, our companions provide an experience 
-                  that transcends the ordinary.
+                  In a world where genuine connection is increasingly rare, we
+                  believe in the value of meaningful, adult companionship.
+                  Whether for a social event, business function, or simply an
+                  evening of engaging conversation, our companions provide an
+                  experience that transcends the ordinary while remaining
+                  respectful and discreet.
                 </p>
                 <p>
-                  We understand that our clients are discerning individuals who 
-                  value their time, privacy, and the quality of their experiences. 
-                  That's why we've built a platform that prioritizes verification, 
-                  discretion, and professionalism above all else.
+                  Our directory is designed as a one-stop destination for your
+                  adult entertainment needs in Mahipalpur, offering a wide range
+                  of companionship services tailored to different tastes and
+                  preferences. Many visitors first discover us while searching
+                  online for phrases like &quot;sexy call girl in Mahipalpur&quot;
+                  or &quot;elite escort service&quot;; we respond by offering a
+                  refined, professional platform focused on verified, ethical
+                  adult companionship.
                 </p>
                 <p>
-                  Every companion in our directory has been personally vetted to 
-                  ensure they embody the sophistication, intelligence, and grace 
-                  that our clients expect. We don't just list profiles—we curate 
-                  experiences.
+                  We understand that our clients value privacy, safety, and the
+                  quality of their experiences. Every companion is verified,
+                  vetted, and confirmed to be 18+ under our strict no-minors
+                  policy, and we work only with individuals who uphold high
+                  standards of professionalism, integrity, and discretion.
+                </p>
+                <p>
+                  Each profile in our directory is carefully reviewed to ensure
+                  it reflects the sophistication, intelligence, and grace that
+                  our clients expect. We don&apos;t just list profiles—we curate
+                  introductions and experiences that are respectful, lawful, and
+                  tailored to your needs.
                 </p>
               </div>
             </motion.div>
