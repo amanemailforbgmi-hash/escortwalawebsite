@@ -71,7 +71,7 @@ const About = () => {
               transition={{ delay: 0.2 }}
               className="text-muted-foreground text-lg leading-relaxed"
             >
-              Élite Companions is a premium adult companion directory serving
+              Priya Sharma Escorts is a premium adult companion directory serving
               Mahipalpur and surrounding areas. We are the go-to resource for
               discerning individuals seeking professional, discreet, and
               carefully curated companionship where discretion and elegance
@@ -215,10 +215,10 @@ const About = () => {
             >
               <h3 className="font-serif text-xl mb-4">Important Notice</h3>
               <p className="text-muted-foreground text-sm leading-relaxed">
-                Élite Companions is strictly an introduction and companion directory 
-                service. We facilitate connections between consenting adults for 
-                social companionship purposes only. All companions listed are 
-                independent adults (18+) who have chosen to be part of our platform. 
+                Priya Sharma Escorts is strictly an introduction and companion directory
+                service. We facilitate connections between consenting adults for
+                social companionship purposes only. All companions listed are
+                independent adults (18+) who have chosen to be part of our platform.
                 We do not condone, facilitate, or promote any illegal activities.
               </p>
             </motion.div>

@@ -10,7 +10,7 @@ export const Footer = () => {
           <div className="space-y-4">
             <Link to="/" className="inline-block">
               <span className="text-3xl font-serif font-semibold text-gradient-gold">
-                Élite
+                Priya Sharma
               </span>
             </Link>
             <p className="text-muted-foreground text-sm leading-relaxed">
@@ -71,17 +71,17 @@ export const Footer = () => {
               <li className="flex items-center gap-3">
                 <Mail size={18} className="text-primary" />
                 <a
-                  href="mailto:enquiry@elite.com"
+                  href="mailto:contact@priyasharmaaescorts.com"
                   className="text-muted-foreground hover:text-primary transition-colors text-sm"
                 >
-                  enquiry@elite.com
+                  contact@priyasharmaaescorts.com
                 </a>
               </li>
               <li className="flex items-center gap-3">
                 <Phone size={18} className="text-primary" />
-                <span className="text-muted-foreground text-sm">
-                  By Appointment Only
-                </span>
+                <a href="tel:+918527420914" className="text-muted-foreground hover:text-primary transition-colors text-sm">
+                  +91 8527420914
+                </a>
               </li>
             </ul>
           </div>
@@ -130,7 +130,7 @@ export const Footer = () => {
         <div className="mt-12 pt-8 border-t border-border/30">
           <div className="flex flex-col md:flex-row items-center justify-between gap-4">
             <p className="text-muted-foreground text-sm">
-              © {new Date().getFullYear()} Élite Companions. All rights reserved.
+              © {new Date().getFullYear()} Priya Sharma Escorts. All rights reserved.
             </p>
             <p className="text-muted-foreground text-xs flex items-center gap-1">
               Made with <Heart size={12} className="text-accent" /> for discerning clients

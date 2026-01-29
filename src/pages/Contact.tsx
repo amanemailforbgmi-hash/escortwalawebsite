@@ -35,12 +35,12 @@ const Contact = () => {
       toast.error("Please confirm you are 18 years or older.");
       return;
     }
-    
+
     setIsSubmitting(true);
-    
+
     // Simulate form submission
     await new Promise((resolve) => setTimeout(resolve, 1500));
-    
+
     toast.success("Enquiry submitted successfully! We'll be in touch soon.");
     setFormData({
       name: "",
@@ -82,7 +82,7 @@ const Contact = () => {
               transition={{ delay: 0.2 }}
               className="text-muted-foreground text-lg"
             >
-              Reach out to us for bookings, inquiries, or any questions. 
+              Reach out to us for bookings, inquiries, or any questions.
               All communications are handled with complete discretion.
             </motion.p>
           </div>
@@ -100,20 +100,20 @@ const Contact = () => {
               viewport={{ once: true }}
             >
               <h2 className="text-3xl font-serif mb-8">Get in Touch</h2>
-              
+
               <div className="space-y-6 mb-12">
                 {[
                   {
                     icon: Mail,
                     label: "Email",
-                    value: "enquiry@elite.com",
-                    link: "mailto:enquiry@elite.com",
+                    value: "contact@priyasharmaaescorts.com",
+                    link: "mailto:contact@priyasharmaaescorts.com",
                   },
                   {
                     icon: Phone,
                     label: "Phone",
-                    value: "By Appointment Only",
-                    link: null,
+                    value: "+91 8527420914",
+                    link: "tel:+918527420914",
                   },
                   {
                     icon: MapPin,
@@ -159,9 +159,9 @@ const Contact = () => {
                       Your Privacy Matters
                     </h3>
                     <p className="text-muted-foreground text-sm leading-relaxed">
-                      All communications are encrypted and handled with the 
-                      utmost discretion. We never share your information with 
-                      third parties. Your enquiry will be reviewed by our 
+                      All communications are encrypted and handled with the
+                      utmost discretion. We never share your information with
+                      third parties. Your enquiry will be reviewed by our
                       dedicated concierge team.
                     </p>
                   </div>
@@ -301,7 +301,7 @@ const Contact = () => {
                       htmlFor="ageConfirm"
                       className="text-sm text-muted-foreground"
                     >
-                      I confirm that I am 18 years of age or older and I agree 
+                      I confirm that I am 18 years of age or older and I agree
                       to the terms of service and privacy policy.
                     </label>
                   </div>

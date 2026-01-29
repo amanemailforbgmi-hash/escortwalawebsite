@@ -7,11 +7,11 @@ export const Hero = () => {
     <section className="relative min-h-[90vh] flex items-center justify-center overflow-hidden">
       {/* Background */}
       <div className="absolute inset-0 bg-gradient-to-b from-background via-background to-card" />
-      
+
       {/* Decorative Elements */}
       <div className="absolute top-1/4 left-1/4 w-96 h-96 bg-primary/5 rounded-full blur-3xl" />
       <div className="absolute bottom-1/4 right-1/4 w-64 h-64 bg-accent/5 rounded-full blur-3xl" />
-      
+
       {/* Content */}
       <div className="container mx-auto px-4 relative z-10">
         <div className="max-w-4xl mx-auto text-center">
@@ -21,7 +21,7 @@ export const Hero = () => {
             transition={{ duration: 0.8 }}
           >
             <span className="inline-block px-4 py-2 mb-6 text-xs uppercase tracking-[0.3em] text-primary border border-primary/30 rounded-full">
-              Mahipalpur Adult Companion Directory
+              Priya Sharma Escorts
             </span>
           </motion.div>
 
@@ -41,7 +41,7 @@ export const Hero = () => {
             transition={{ duration: 0.8, delay: 0.2 }}
             className="text-lg md:text-xl text-muted-foreground max-w-2xl mx-auto mb-10 leading-relaxed"
           >
-            Welcome to our premium adult companion directory, your trusted
+            Welcome to Priya Sharma Escorts, your trusted
             one-stop destination for discerning individuals seeking verified,
             professional companionship in Mahipalpur. Experience unparalleled
             sophistication, complete discretion, and carefully vetted profiles

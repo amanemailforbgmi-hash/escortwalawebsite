@@ -3,6 +3,7 @@ import { Hero } from "@/components/home/Hero";
 import { FeaturedProfiles } from "@/components/home/FeaturedProfiles";
 import { WhyChooseUs } from "@/components/home/WhyChooseUs";
 import { CTASection } from "@/components/home/CTASection";
+import { StickyContactBar } from "@/components/shared/StickyContactBar";
 
 const Index = () => {
   return (
@@ -11,6 +12,7 @@ const Index = () => {
       <FeaturedProfiles />
       <WhyChooseUs />
       <CTASection />
+      <StickyContactBar phoneNumber="+91-8527420914" />
     </Layout>
   );
 };

@@ -2,49 +2,19 @@ import { Link } from "react-router-dom";
 import { motion } from "framer-motion";
 import { MapPin, Verified, ArrowRight } from "lucide-react";
 
-import profile1 from "@/assets/profile-1.jpg";
-import profile2 from "@/assets/profile-2.jpg";
-import profile3 from "@/assets/profile-3.jpg";
-import profile4 from "@/assets/profile-4.jpg";
+import { featuredProfiles } from "@/data/profiles";
 
-const profiles = [
-  {
-    id: 1,
-    name: "Ananya",
-    age: 24,
-    city: "Mumbai",
-    tagline: "Sophisticated & Charming",
-    services: ["Social Events", "Fine Dining", "Travel"],
-    image: profile1,
-  },
-  {
-    id: 2,
-    name: "Priya",
-    age: 26,
-    city: "Delhi",
-    tagline: "Elegant & Cultured",
-    services: ["Business Functions", "Art Events", "Companionship"],
-    image: profile2,
-  },
-  {
-    id: 3,
-    name: "Kavya",
-    age: 23,
-    city: "Bangalore",
-    tagline: "Graceful & Engaging",
-    services: ["Private Dinners", "Corporate Events", "Travel"],
-    image: profile3,
-  },
-  {
-    id: 4,
-    name: "Riya",
-    age: 25,
-    city: "Mumbai",
-    tagline: "Refined & Sophisticated",
-    services: ["Gala Events", "Weekend Getaways", "Fine Dining"],
-    image: profile4,
-  },
-];
+// Select top 4 profiles for the featured section
+const profiles = featuredProfiles.slice(0, 4).map(profile => ({
+  id: profile.id,
+  name: profile.name.split(' ')[0], // First name only for cleaner look
+  age: profile.age,
+  city: profile.location,
+  tagline: profile.tag,
+  // Generate services based on tag/description or generic ones
+  services: ["Dinner Dates", "Events", "Travel"],
+  image: profile.imageUrl
+}));
 
 export const FeaturedProfiles = () => {
   return (
@@ -67,7 +37,7 @@ export const FeaturedProfiles = () => {
             transition={{ delay: 0.1 }}
             className="text-3xl md:text-4xl lg:text-5xl font-serif mt-4 mb-6"
           >
-            Our Elite Companions
+            Our Premium Companions
           </motion.h2>
           <div className="section-divider" />
           <motion.p
@@ -77,7 +47,7 @@ export const FeaturedProfiles = () => {
             transition={{ delay: 0.2 }}
             className="text-muted-foreground max-w-2xl mx-auto"
           >
-            Each companion is carefully verified for authenticity, 
+            Each companion is carefully verified for authenticity,
             professionalism, and discretion.
           </motion.p>
         </div>
@@ -104,7 +74,7 @@ export const FeaturedProfiles = () => {
                     className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
                   />
                   <div className="absolute inset-0 bg-gradient-to-t from-background via-transparent to-transparent opacity-60" />
-                  
+
                   {/* Verified Badge */}
                   <div className="absolute top-4 right-4 flex items-center gap-1 bg-primary/90 text-primary-foreground px-2 py-1 rounded-full text-xs">
                     <Verified size={12} />
@@ -120,16 +90,16 @@ export const FeaturedProfiles = () => {
                       {profile.age}
                     </span>
                   </div>
-                  
+
                   <div className="flex items-center gap-1 text-muted-foreground text-sm mb-3">
                     <MapPin size={14} className="text-primary" />
                     <span>{profile.city}</span>
                   </div>
-                  
+
                   <p className="text-sm text-muted-foreground italic mb-4">
                     "{profile.tagline}"
                   </p>
-                  
+
                   <div className="flex flex-wrap gap-2">
                     {profile.services.slice(0, 2).map((service) => (
                       <span

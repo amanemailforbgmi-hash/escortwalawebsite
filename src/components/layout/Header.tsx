@@ -23,10 +23,10 @@ export const Header = () => {
           {/* Logo */}
           <Link to="/" className="flex items-center gap-2">
             <span className="text-2xl md:text-3xl font-serif font-semibold text-gradient-gold">
-              Élite
+              Priya Sharma
             </span>
             <span className="text-sm uppercase tracking-[0.3em] text-muted-foreground hidden sm:block">
-              Companions
+              Escorts
             </span>
           </Link>
 
@@ -36,9 +36,8 @@ export const Header = () => {
               <Link
                 key={link.path}
                 to={link.path}
-                className={`link-luxury text-sm uppercase tracking-wider ${
-                  location.pathname === link.path ? "text-primary" : ""
-                }`}
+                className={`link-luxury text-sm uppercase tracking-wider ${location.pathname === link.path ? "text-primary" : ""
+                  }`}
               >
                 {link.name}
               </Link>
@@ -79,11 +78,10 @@ export const Header = () => {
                   key={link.path}
                   to={link.path}
                   onClick={() => setIsOpen(false)}
-                  className={`text-lg py-2 border-b border-border/20 ${
-                    location.pathname === link.path
+                  className={`text-lg py-2 border-b border-border/20 ${location.pathname === link.path
                       ? "text-primary"
                       : "text-foreground"
-                  }`}
+                    }`}
                 >
                   {link.name}
                 </Link>
